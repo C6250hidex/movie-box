@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.popular{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.popular1{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px; 
+}
+.popular1 p{
+    font-size: 1.5rem;
+    color: rgb(42, 39, 39);
+}
+.popular1 a{
+    color: rgb(6, 6, 6);
+    opacity: 0.5;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.popular2{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px; 
+}
+.polular3{
+    background-color: white;
+    color: #17181a;
+    width: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.polular3:hover{
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+} 
+
+.polular3 img{
+    width: 120px;
+    height: 200px;
+    padding-bottom: 10%;
+}
+.yama{
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 300; 
+}
+.night{
+    opacity: 0.6;
+    padding-bottom: 10px; 
+
+}
+.reading{
+    opacity: 0.4; 
+}
+/* rank */
+.rank1{
+     font-size: 1.5rem;
+    color: rgb(42, 39, 39);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.rank{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container1{
+    color: rgb(255, 69, 147);
+    border-bottom: 2px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-bottom: 20px; */
+}
+.container1 p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.book-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    text-decoration: none;
+    padding-top:10px;
+}
+.book-item:hover{
+    background-color: rgba(124, 198 , 236, 0.123);
+    /* padding-right: 10px; */
+    
+}
+.book-item img {
+    width: 90px;
+    height: 120px;
+}
+.book-info {
+    flex-grow: 1;
+}
+.book-title {
+    font-weight: bold;
+    color: #17181a;
+}
+.book-author {
+color: #555;
+font-size: 0.9em;
+}
+.book-score {
+    color: #aaa;
+    font-size: 0.9em;
+}
+.novel-genres{
+    /* body */
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.novel-genres h1{
+    margin-bottom: 30px;
+
+}
+.genres_novel{
+    /* flex all genres */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.genres_novel-list{
+     /*flexonlytheimganddiv*/width:18em;
+     height:8em;
+     background-color: white;
+     color: #17181a;
+     text-decoration: none;
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     padding: 20px;
+     padding-right: 40px;
+     border-radius:15px ;
+     transition: transform 0.3s ease;
+     -webkit-border-radius:15px ;
+     -moz-border-radius:15px ;
+     -ms-border-radius:15px ;
+     -o-border-radius:15px ;
+     -webkit-transition: transform 0.3s ease;
+     -moz-transition: transform 0.3s ease;
+     -ms-transition: transform 0.3s ease;
+     -o-transition: transform 0.3s ease;
+}
+.genres_novel-list:hover{
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+.genres_novel-list img{
+    width: 90px;
+    height: 90px;
+}
+.genres_novel_list1 h2{
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+.genres_novel_list1 p{
+    opacity: 0.5;
+}
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.novel_footer{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    margin-left: 25%;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.novel_footer a{
+    text-decoration: none;
+    color: #17181a;
+}
+.chidex{
+    text-transform: capitalize;
+    opacity: 0.5;
+    
+}
